@@ -1,4 +1,5 @@
-import {Column, Entity, PrimaryGeneratedColumn} from "typeorm";
+import {Column, Entity, OneToMany, PrimaryGeneratedColumn} from "typeorm";
+import {FotoEntity} from "../foto/foto.entity";
 
 @Entity('web_usuario_carolina')
 export class UsuarioEntity{
@@ -14,5 +15,10 @@ export class UsuarioEntity{
 
     @Column({ length: 500 })
     edad: string;
+
+    @OneToMany(type => FotoEntity,
+        foto=> foto.usuarioId)
+
+    fotos:FotoEntity[];
 
 }
