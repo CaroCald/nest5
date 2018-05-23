@@ -15,7 +15,6 @@ import {UsuarioEntity} from "./usuario/usuario.entity";
           database: 'web',
           entities: [__dirname + '/../**/*.entity{.ts,.js}'],
           synchronize: true,
-
       }),
       TypeOrmModule.forFeature([UsuarioEntity])
   ],
