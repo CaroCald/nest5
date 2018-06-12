@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e5c64bd-7148-4dab-82b5-355014ca4fd0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/project/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/project/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/usuario/usuario.entity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/usuario/usuario.entity.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/app.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/app.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/servicios/jwt.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/servicios/jwt.service.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -43,34 +42,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.controller.ts" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.controller.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/project/src/app.controller.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <state relative-caret-position="478">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
               <folding>
-                <element signature="e#0#49#0" expanded="true" />
+                <element signature="e#0#70#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jwt.service.ts" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project/src/servicios/jwt.service.ts">
+      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/src/app.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="6" selection-end-column="54" />
+            <state relative-caret-position="255">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.hmr.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/src/main.hmr.ts">
+      <file leaf-file-name="jwt-valido.guard.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/src/guards/jwt-valido.guard.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="294">
+              <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
               <folding>
-                <element signature="e#0#43#0" expanded="true" />
+                <element signature="e#0#73#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,11 +90,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/project/src/app.module.ts" />
         <option value="$PROJECT_DIR$/project/package.json" />
         <option value="$PROJECT_DIR$/project/src/usuario/usuario.entity.ts" />
-        <option value="$PROJECT_DIR$/project/src/app.controller.ts" />
         <option value="$PROJECT_DIR$/project/src/servicios/jwt.service.ts" />
+        <option value="$PROJECT_DIR$/project/src/app.module.ts" />
+        <option value="$PROJECT_DIR$/project/src/auth/auth.controller.ts" />
+        <option value="$PROJECT_DIR$/project/src/guards/usuario.guard.ts" />
+        <option value="$PROJECT_DIR$/project/src/execptions.ts" />
+        <option value="$PROJECT_DIR$/project/src/exceptions/peticion-no-valida.exception.ts" />
+        <option value="$PROJECT_DIR$/project/src/guards/jwt-valido.guard.ts" />
+        <option value="$PROJECT_DIR$/project/src/app.controller.ts" />
       </list>
     </option>
   </component>
@@ -149,14 +153,7 @@
               <item name="nest5" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="foto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nest5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nest5" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="servicios" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -210,26 +207,26 @@
       <workItem from="1528051136993" duration="345000" />
       <workItem from="1528051588171" duration="2000" />
       <workItem from="1528056799552" duration="762000" />
-      <workItem from="1528838269903" duration="479000" />
+      <workItem from="1528838269903" duration="3959000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12816000" />
+    <option name="totallyTimeSpent" value="16296000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TypeScript" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2591508" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2591508" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32924962" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.30015314" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.30015314" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -248,26 +245,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project/src/usuario/usuario.entity.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#74#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/foto/foto.entity.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#74#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/src/main.hmr.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -283,7 +260,7 @@
         <state relative-caret-position="286">
           <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
           <folding>
-            <element signature="e#0#49#0" expanded="true" />
+            <element signature="e#0#70#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -313,7 +290,7 @@
         <state relative-caret-position="234">
           <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
           <folding>
-            <element signature="e#0#49#0" expanded="true" />
+            <element signature="e#0#70#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -353,7 +330,7 @@
         <state relative-caret-position="260">
           <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
           <folding>
-            <element signature="e#0#49#0" expanded="true" />
+            <element signature="e#0#70#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -585,24 +562,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/usuario/usuario.pipe.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/src/usuario/usuario.schema.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
           <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -636,20 +599,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/app.controller.ts">
+    <entry file="file://$PROJECT_DIR$/project/src/execptions.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/servicios/jwt.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state relative-caret-position="133">
+          <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/guards/usuario.guard.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1716">
+          <caret line="66" column="1" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
           <folding>
-            <element signature="e#0#49#0" expanded="true" />
+            <element signature="e#0#73#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/servicios/jwt.service.ts">
+    <entry file="file://$PROJECT_DIR$/project/src/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="6" selection-end-column="54" />
+        <state relative-caret-position="255">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/exceptions/peticion-no-valida.exception.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/auth/auth.controller.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="55" column="11" lean-forward="true" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/usuario/usuario.pipe.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/guards/jwt-valido.guard.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/app.controller.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#0#70#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
