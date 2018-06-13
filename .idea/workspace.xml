@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2e5c64bd-7148-4dab-82b5-355014ca4fd0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/project/src/app.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/app.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/servicios/jwt.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/servicios/jwt.service.ts" afterDir="false" />
-    </list>
+    <list default="true" id="2e5c64bd-7148-4dab-82b5-355014ca4fd0" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -42,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.controller.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.controller.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project/src/app.controller.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="478">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="-20">
+              <caret line="11" column="49" lean-forward="true" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
               <folding>
                 <element signature="e#0#70#0" expanded="true" />
               </folding>
@@ -63,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jwt-valido.guard.ts" pinned="false" current-in-tab="false">
+      <file leaf-file-name="jwt-valido.guard.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/project/src/guards/jwt-valido.guard.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+            <state relative-caret-position="164">
+              <caret line="11" column="56" lean-forward="true" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
               <folding>
                 <element signature="e#0#73#0" expanded="true" />
               </folding>
@@ -207,16 +203,15 @@
       <workItem from="1528051136993" duration="345000" />
       <workItem from="1528051588171" duration="2000" />
       <workItem from="1528056799552" duration="762000" />
-      <workItem from="1528838269903" duration="3959000" />
+      <workItem from="1528838269903" duration="4350000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16296000" />
+    <option name="totallyTimeSpent" value="16687000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TypeScript" order="7" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2591508" />
@@ -650,22 +645,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/guards/jwt-valido.guard.ts">
+    <entry file="file://$PROJECT_DIR$/project/src/app.controller.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+        <state relative-caret-position="-20">
+          <caret line="11" column="49" lean-forward="true" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
           <folding>
-            <element signature="e#0#73#0" expanded="true" />
+            <element signature="e#0#70#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/app.controller.ts">
+    <entry file="file://$PROJECT_DIR$/project/src/guards/jwt-valido.guard.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="164">
+          <caret line="11" column="56" lean-forward="true" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
           <folding>
-            <element signature="e#0#70#0" expanded="true" />
+            <element signature="e#0#73#0" expanded="true" />
           </folding>
         </state>
       </provider>
